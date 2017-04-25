@@ -24,6 +24,10 @@ References: https://askubuntu.com/questions/1792/how-can-i-suspend-hibernate-fro
 sudo apt-get install compizconfig-settings-manager
 ```
 
+General >> key to show the HUD when tapped "< Disabled >"
+Launcher >> Key to show the Dash, Launcher and Help Overlay "< Disabled >"
+
+
 https://askubuntu.com/questions/151951/how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud  
 https://askubuntu.com/questions/764253/virtualbox-in-ubuntu-16-04-unity-grabs-alt-and-super-key  
 
