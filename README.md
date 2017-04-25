@@ -24,7 +24,7 @@ References: https://askubuntu.com/questions/1792/how-can-i-suspend-hibernate-fro
 sudo apt-get install compizconfig-settings-manager
 ```
 
-General >> key to show the HUD when tapped "< Disabled >"
+General >> key to show the HUD when tapped "< Disabled >"   
 Launcher >> Key to show the Dash, Launcher and Help Overlay "< Disabled >"
 
 
