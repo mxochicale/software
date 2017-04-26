@@ -17,6 +17,42 @@ sudo pm-suspend
 ```
 References: https://askubuntu.com/questions/1792/how-can-i-suspend-hibernate-from-command-line
 
+## nautilus-open-terminal 
+```
+sudo apt-get install nautilus-open-terminal
+nautilus -q  
+```
+https://askubuntu.com/questions/207442/how-to-add-open-terminal-here-to-nautilus-context-menu
+
+## Ubuntu 14 04 Bluetooth Error Another Operation In Progress
+https://www.youtube.com/watch?v=ErkBNrsqmjU
+
+Ricardo Galvez
+Hi, I only can with terminal. cd to the destination directory, type cp then a space Drag and drop 
+all the files you want to copy (copy address) from Nautilus to the terminal, type a space then 
+"." then press enter﻿
+
+
+```
+sudo mkdir /media/mountpoint
+sudo apt-get install obexfs
+hcitool scan
+```
+8F:77:17:77:44:16 My Android Phone
+```
+sudo obexfs -b 8F:77:17:77:44:16 /mountpoint
+```
+https://askubuntu.com/questions/204716/bluetooth-how-to-browse-files-on-a-device
+http://dev.zuckschwerdt.org/openobex/wiki/ObexFs
+
+
+sudo umount -f /media/mountpoint 
+https://kuttler.eu/en/post/sshfs-transport-endpoint-not-connecte/
+http://stackoverflow.com/questions/14057830/unmount-the-directory-which-is-mounted-by-sshfs-in-mac
+
+
+IS NOT WORKING 
+
 
 ## Unity grabs Alt and Super key
 
@@ -55,6 +91,7 @@ http://flight-manual.atom.io/using-atom/sections/moving-in-atom/
 
 ## cheat-sheet 
 http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png
+
 
 ## How to give this permission (-r--rwx-rw-) using CHMOD? [duplicate]
 
