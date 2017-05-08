@@ -1,6 +1,9 @@
 Ubuntu Tricks
 ---
 
+
+
+
 This is a list a collection of tricks for Ubuntu and maybe in Ubuntu-like distributions (i.e. Debian).
 
 ## suspend-hibernate-from-command-line
@@ -84,6 +87,22 @@ https://github.com/atom/atom/issues/2670
 ## Moving in atom 
 
 http://flight-manual.atom.io/using-atom/sections/moving-in-atom/ 
+
+
+
+
+# Sorry Ubuntu 16.04 has experienced internal error solve 
+
+1.Open a terminal window.   
+2.Type in the following commands, then hit Enter after each:   
+```
+sudo gedit /etc/default/apport
+
+enabled=0
+```
+
+
+https://www.youtube.com/watch?v=w7FEA1N11jo
 
 
 
