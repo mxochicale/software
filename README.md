@@ -62,7 +62,7 @@ IS NOT WORKING
 ```
 sudo apt-get install compizconfig-settings-manager
 ```
-
+Start it from the Dash or by typing ccsm from the terminal  
 General >> key to show the HUD when tapped "< Disabled >"   
 Launcher >> Key to show the Dash, Launcher and Help Overlay "< Disabled >"
 
