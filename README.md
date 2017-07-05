@@ -6,9 +6,58 @@ Ubuntu Tricks
 
 This is a list a collection of tricks for Ubuntu and maybe in Ubuntu-like distributions (i.e. Debian).
 
-## suspend-hibernate-from-command-line
 
-Install 
+# Unity grabs Alt and Super key
+
+```
+sudo apt-get install compizconfig-settings-manager
+```
+
+output
+```
+$ sudo apt install compizconfig-settings-manager
+[sudo] password for map479:
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libreadline5 linux-headers-4.4.0-31 linux-headers-4.4.0-31-generic
+  linux-headers-4.4.0-75 linux-headers-4.4.0-75-generic linux-headers-4.4.0-78
+  linux-headers-4.4.0-78-generic linux-headers-4.4.0-79
+  linux-headers-4.4.0-79-generic linux-image-4.4.0-31-generic
+  linux-image-4.4.0-75-generic linux-image-4.4.0-78-generic
+  linux-image-4.4.0-79-generic linux-image-extra-4.4.0-31-generic
+  linux-image-extra-4.4.0-75-generic linux-image-extra-4.4.0-78-generic
+  linux-image-extra-4.4.0-79-generic ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  python-compizconfig
+The following NEW packages will be installed
+  compizconfig-settings-manager python-compizconfig
+0 to upgrade, 2 to newly install, 0 to remove and 345 not to upgrade.
+Need to get 613 kB of archives.
+After this operation, 4,830 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+```
+
+
+
+
+Start it from the Dash or by typing ccsm from the terminal  
+Type "Unity" in the filter box on the left, and click on the Ubuntu Unity Plugin:
+
+General Options >> key to show the HUD when tapped "< Disabled >"   
+Launcher >> Key to show the Dash, Launcher and Help Overlay "< Disabled >"
+
+[how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud](https://askubuntu.com/questions/151951/how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud)
+[-unity-grabs-alt-and-super-key](https://askubuntu.com/questions/764253/virtualbox-in-ubuntu-16-04-unity-grabs-alt-and-super-key)
+
+
+
+
+# suspend-hibernate-from-command-line
+
+Install
 
 ```
 sudo apt-get install powermanagement-interface
@@ -20,19 +69,21 @@ sudo pm-suspend
 ```
 References: https://askubuntu.com/questions/1792/how-can-i-suspend-hibernate-from-command-line
 
-## nautilus-open-terminal 
+# nautilus-open-terminal
 ```
 sudo apt-get install nautilus-open-terminal
 nautilus -q  
 ```
 https://askubuntu.com/questions/207442/how-to-add-open-terminal-here-to-nautilus-context-menu
 
-## Ubuntu 14 04 Bluetooth Error Another Operation In Progress
+
+
+# Ubuntu 14 04 Bluetooth Error Another Operation In Progress
 https://www.youtube.com/watch?v=ErkBNrsqmjU
 
 Ricardo Galvez
-Hi, I only can with terminal. cd to the destination directory, type cp then a space Drag and drop 
-all the files you want to copy (copy address) from Nautilus to the terminal, type a space then 
+Hi, I only can with terminal. cd to the destination directory, type cp then a space Drag and drop
+all the files you want to copy (copy address) from Nautilus to the terminal, type a space then
 "." then press enter﻿
 
 
@@ -49,49 +100,37 @@ https://askubuntu.com/questions/204716/bluetooth-how-to-browse-files-on-a-device
 http://dev.zuckschwerdt.org/openobex/wiki/ObexFs
 
 
-sudo umount -f /media/mountpoint 
+sudo umount -f /media/mountpoint
 https://kuttler.eu/en/post/sshfs-transport-endpoint-not-connecte/
 http://stackoverflow.com/questions/14057830/unmount-the-directory-which-is-mounted-by-sshfs-in-mac
 
 
-IS NOT WORKING 
-
-
-## Unity grabs Alt and Super key
-
-```
-sudo apt-get install compizconfig-settings-manager
-```
-Start it from the Dash or by typing ccsm from the terminal  
-General >> key to show the HUD when tapped "< Disabled >"   
-Launcher >> Key to show the Dash, Launcher and Help Overlay "< Disabled >"
-
-
-https://askubuntu.com/questions/151951/how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud  
-https://askubuntu.com/questions/764253/virtualbox-in-ubuntu-16-04-unity-grabs-alt-and-super-key  
+IS NOT WORKING
 
 
 
-## move faster in Bash command line 
+
+
+# move faster in Bash command line
 
 http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 
 
-# Atom 
+# Atom
 
-## atom  move between panes #2670 
+## atom  move between panes #2670
 
 On Linux I had to use ctrl-k ctrl-arrow  
 
 https://github.com/atom/atom/issues/2670  
-## Moving in atom 
+## Moving in atom
 
-http://flight-manual.atom.io/using-atom/sections/moving-in-atom/ 
-
-
+http://flight-manual.atom.io/using-atom/sections/moving-in-atom/
 
 
-# Sorry Ubuntu 16.04 has experienced internal error solve 
+
+
+# Sorry Ubuntu 16.04 has experienced internal error solve
 
 1.Open a terminal window.   
 2.Type in the following commands, then hit Enter after each:   
@@ -129,21 +168,21 @@ Requires the following packages:
 
 
 
-## cheat-sheet 
+## cheat-sheet
 http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png
 
 
 ## How to give this permission (-r--rwx-rw-) using CHMOD? [duplicate]
 
 ```
-chmod 
+chmod
 ```
 
 https://unix.stackexchange.com/questions/259088/how-to-give-this-permission-r-rwx-rw-using-chmod/259092
 
 https://unix.stackexchange.com/questions/259088/how-to-give-this-permission-r-rwx-rw-using-chmod/259092
 
-# Desktops 
+# Desktops
 
 ## desktop environments and shells are available?
 
@@ -162,5 +201,5 @@ https://unix.stackexchange.com/questions/96471/linux-mint-xfce-command-to-launch
 
 # Installation
 
-## install openshot 
+## install openshot
 http://ubuntuhandbook.org/index.php/2016/08/install-openshot-2-1-ubuntu-16-04/
