@@ -1,12 +1,7 @@
-After Ubuntu Installation
+After Ubuntu 16.04 x64 Installation
 ---
 
-
-# Ubuntu 16.04 x64
-
-
-
-## update and upgrade
+# update and upgrade
 
 
 ```
@@ -15,23 +10,31 @@ $ sudo apt-get -f upgrade
 $ sudo apt-get install git
 ```
 
-## atom
+# Clone Ubuntu tricks Repo 
 
+```
+cd ~
+git clone https://github.com/mxochicale/ubuntu_tricks
+cd ubuntu_tricks
+```
 
-Copy the link for atom-amd64.deb from the [Atom releases page](https://github.com/atom/atom/releases)
+# install atom
+
+Copy the link for latest version of atom-amd64.deb from the [Atom releases page](https://github.com/atom/atom/releases) and modify install_atom.sh
 
 
 ```
-cd && mkdir -p .atomtmp && cd .atomtmp
-wget https://github.com/atom/atom/releases/download/v1.19.0-beta5/atom-amd64.deb
-sudo dpkg --install atom-amd64.deb
-cd && rm -rf .atomtmp
+./install_atom.sh
 ```
 
 
-# terminal
+# create ~/mxochicale/github
 
 ```
-cd ~/
-mkdir -p mxochicale && cd mxochicale
+./mkdir_paths.sh
 ```
+
+
+### Extras
+
+chmod +x *.sh
