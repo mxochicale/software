@@ -10,7 +10,7 @@ $ sudo apt-get -f upgrade
 $ sudo apt-get install git
 ```
 
-# Clone Ubuntu tricks Repo 
+# Clone Ubuntu tricks Repo
 
 ```
 cd ~
@@ -33,6 +33,11 @@ Copy the link for latest version of atom-amd64.deb from the [Atom releases page]
 ```
 ./mkdir_paths.sh
 ```
+
+# Firefox (never remember history)
+  Edit/Preferences/Privacy
+  Firefox will: Never Remember history
+
 
 
 ### Extras
