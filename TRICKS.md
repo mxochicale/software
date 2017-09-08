@@ -7,6 +7,17 @@ Ubuntu Tricks
 This is a list a collection of tricks for Ubuntu and maybe in Ubuntu-like distributions (i.e. Debian).
 
 
+
+# Remove show desktop in the alt-tab application switcher 
+
+sudo apt-get install compizconfig-settings-manager
+Now open CCSM and go to Ubuntu Unity plugin. 
+Switch to Switcher tab. Then tick the check box next to Disable Show Desktop in the switcher option.
+
+https://askubuntu.com/questions/167263/how-can-i-remove-show-desktop-from-the-alt-tab-application-switcher
+
+
+
 # Unity grabs Alt and Super key
 
 ```
