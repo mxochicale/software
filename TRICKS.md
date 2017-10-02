@@ -2,9 +2,15 @@ Ubuntu Tricks
 ---
 
 
-
-
 This is a list a collection of tricks for Ubuntu and maybe in Ubuntu-like distributions (i.e. Debian).
+
+# [Increase/Decrease Shell Workspaces](https://help.ubuntu.com/stable/ubuntu-help/shell-workspaces.html)
+
+
+Change the number of columns, type the following command, changing the final number to the number you wish. Press Enter.
+```
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3`
+```
 
 
 
