@@ -1,8 +1,6 @@
 After Ubuntu 16.04 x64 Installation
 ---
 
-
-
 # update and upgrade
 
 
@@ -20,15 +18,9 @@ git clone https://github.com/mxochicale/GNULINUX_tools
 cd GNULINUX_tools/afterInstallation
 ```
 
-# install atom
+# install any of the following tools
 
-Copy the link for latest version of atom-amd64.deb from the [Atom releases page](https://github.com/atom/atom/releases) and modify install_atom.sh
-
-
-```
-./install_atom.sh
-```
-
+* My collection of scientific tools [:link:](https://github.com/mxochicale/myCollectionOfScientificTools)
 
 # create ~/mxochicale/github
 
@@ -48,29 +40,6 @@ Copy the link for latest version of atom-amd64.deb from the [Atom releases page]
   Single click to active items
 
 
-## Firefox (never remember history) 
-  "about:preferences"  
-  Edit/Preferences/Privacy  
-  Firefox will: Never Remember history  
-	General -- Always ask me where to save files  
-	Privacy --   
-		Location Bar: tick Bookmarks   
-		History:  
-		Clear your recent history (everything)  
-		Firefox will: Nevel remember history  
-	Customise Firefox   
-		drag all toolbar items exept the main url bar  
-	
-        New Tab Controls  
-	        Show your top sites  
-		  (NO TICK) include suggested sites  
-
-	- import bookmarks   
-	  TODO 	export only the main bookmarks bar with an  
-		empty bookmarks menu.  
-
-
-
 ## Unlock  libre office launchers and others from the desktop
 
 ## terminal 
@@ -79,9 +48,9 @@ Copy the link for latest version of atom-amd64.deb from the [Atom releases page]
 		Background > Transparent background 0.9
 
 
-## 5 add aliases to the bashrc file 
-	TODO: create a shell script to add automatically
-		alies lines in the bashrc file
+## Configuration of .bashrc file 
+
+Add the following lines in the ~/.bashrc file
 
 ```
 #============================================================
@@ -97,12 +66,6 @@ Copy the link for latest version of atom-amd64.deb from the [Atom releases page]
 #
 #============================================================
 
-	## how to use 
-
-#cd
-#vim .bashrc 
-#and add the following lines
-
 
 
 #-------------------
@@ -113,10 +76,15 @@ alias c='clear'
 alias h='history'
 alias ll="ls -liah"
 alias ..='cd ..'
+
+
+alias pwdc='pwd | tr "\n" " " | xsel -bi'
+# http://askubuntu.com/questions/367226/copy-and-paste-current-working-directory-on-command-line-without-using-the-mouse
+
+
 ```
 
 
+TODO: create a shell script to add automatically the following lines in the bashrc file
 
 
-### Extras
-chmod +x *.sh
