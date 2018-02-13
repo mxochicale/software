@@ -14,8 +14,8 @@ $ sudo apt-get install git
 
 ```
 cd ~
-git clone https://github.com/mxochicale/GNULINUX_tools
-cd GNULINUX_tools/afterInstallation
+git clone https://github.com/mxochicale/gnu-LINUX-tools
+cd gnu-LINUX-tools/afterInstallation
 ```
 
 # install any of the following tools
@@ -52,6 +52,17 @@ cd GNULINUX_tools/afterInstallation
 
 Add the following lines in the ~/.bashrc file
 
+
+```
+sudo apt-get update
+sudo apt-get install xsel
+
+```
+[:link:](https://www.howtoinstall.co/en/ubuntu/xenial/xsel)
+
+Then add the following lines to your .bashrc with `vim ~/.bashrc`
+
+
 ```
 #============================================================
 #
@@ -80,9 +91,13 @@ alias ..='cd ..'
 
 alias pwdc='pwd | tr "\n" " " | xsel -bi'
 # http://askubuntu.com/questions/367226/copy-and-paste-current-working-directory-on-command-line-without-using-the-mouse
-
-
 ```
+
+Reload bashrc file
+```
+source ~/.bashrc
+```
+
 
 
 TODO: create a shell script to add automatically the following lines in the bashrc file
