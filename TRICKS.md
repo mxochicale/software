@@ -9,6 +9,25 @@ Change the number of columns, type the following command, changing the final num
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3`
 ```
 
+
+# Make the selected tab in the terminal more prominet
+
+
+For Ubuntu 14.04 and 16.04, create a file named `~/.config/gtk-3.0/gtk.css` and place
+the following into it
+```
+TerminalWindow .notebook tab {
+    background-color: #e2e0dd;
+}
+
+TerminalWindow .notebook tab:active {
+    background-color: #f2f1f0;
+}
+```
+[:link:](https://askubuntu.com/questions/40332/how-to-make-selected-tab-in-terminal-more-prominent)
+
+
+
 # Remove show desktop in the alt-tab application switcher 
 
 
