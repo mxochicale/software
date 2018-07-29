@@ -2,6 +2,34 @@ usefulCommands
 ---
 
 
+
+# top
+
+```
+top
+```
+* press M to sort the process by memory usage
+* press d to set a value for updates of the process, e.g. "d 1"
+* press c to display the full command path with the command line arguments
+* press 1 to display the load information of individual cpus
+
+[:link:](https://www.binarytides.com/linux-top-command/)
+
+
+
+# suspend your machine using terminal
+
+system based method to suspend your Linux laptop
+using command line.
+
+Type the following command:
+```
+systemcl suspend
+```
+[:link:](https://www.cyberciti.biz/faq/linux-command-to-suspend-hibernate-laptop-netbook-pc/)
+
+
+
 # Trasfering files
 
 If you wanted to transfer a directory called "games" from eee320 to eee605, 
@@ -79,8 +107,6 @@ scp -r user@ip:/home/videos .
 # vi cheat sheet
 ZZ save and quit
 :r!date insert date and time
-
-
 
 
 
