@@ -1,19 +1,19 @@
-After Ubuntu 16.04 x64 Installation
+After Ubuntu 1(6/8).04 x64 Installation
 ---
 
 # update and upgrade
 
-
 ```
-$ sudo apt-get update
-$ sudo apt-get -f upgrade
-$ sudo apt-get install git
+sudo apt-get update
+sudo apt-get -f upgrade
+sudo apt-get install git
+sudo apt install vim vim-gtk
 ```
 
 # Clone Ubuntu tricks Repo
 
 ```
-cd ~
+cd 
 git clone https://github.com/mxochicale/gnu-LINUX-tools
 cd gnu-LINUX-tools/afterInstallation
 ```
@@ -45,8 +45,8 @@ cd gnu-LINUX-tools/afterInstallation
 ## terminal 
 	preferences
 		profiles > colors: Green on black
-		Background > Transparent background 0.9
-
+		Background > Transparent background 0.9  
+		text > Monospace Regular 14
 
 ## Configuration of .bashrc file 
 
@@ -58,9 +58,10 @@ sudo apt-get update
 sudo apt-get install xsel
 
 ```
-[:link:](https://www.howtoinstall.co/en/ubuntu/xenial/xsel)
+Reference [:link:](https://www.howtoinstall.co/en/ubuntu/xenial/xsel)
 
-Then add the following lines to your .bashrc with `vim ~/.bashrc`
+Then add the following lines to your .bashrc with 
+vim ~/.bashrc
 
 
 ```
