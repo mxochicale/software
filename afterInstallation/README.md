@@ -1,13 +1,19 @@
 After Ubuntu 1(6/8).04 x64 Installation
 ---
 
-# update and upgrade
+# update and upgrade (run essentials.sh)
 
 ```
 sudo apt-get update
 sudo apt-get -f upgrade
 sudo apt-get install git
 sudo apt install vim vim-gtk
+sudo apt-get install xsel
+```
+or
+```
+sudo echo
+./essentials.sh
 ```
 
 # Clone Ubuntu tricks Repo
@@ -16,16 +22,6 @@ sudo apt install vim vim-gtk
 cd 
 git clone https://github.com/mxochicale/gnu-LINUX-tools
 cd gnu-LINUX-tools/afterInstallation
-```
-
-# install any of the following tools
-
-* My collection of scientific tools [:link:](https://github.com/mxochicale/myCollectionOfScientificTools)
-
-# create ~/mxochicale/github
-
-```
-./mkdir_paths.sh
 ```
 
 
@@ -48,50 +44,19 @@ cd gnu-LINUX-tools/afterInstallation
 		Background > Transparent background 0.9  
 		text > Monospace Regular 14
 
-## Configuration of .bashrc file 
+## Add aliases and functions to .bashrc file 
 
-Add the following lines in the ~/.bashrc file
-
-
+dependencies for copy pwd
 ```
 sudo apt-get update
 sudo apt-get install xsel
-
 ```
 Reference [:link:](https://www.howtoinstall.co/en/ubuntu/xenial/xsel)
 
-Then add the following lines to your .bashrc with 
-vim ~/.bashrc
 
-
+append lines to bashrc:
 ```
-#============================================================
-#
-#  ALIASES AND FUNCTIONS
-#
-#  Arguably, some functions defined here are quite big.
-#  If you want to make this file smaller, these functions can
-#  be converted into scripts and removed from here.
-#  Lear more at http://tldp.org/LDP/abs/html/sample-bashrc.html
-#  
-# 
-#
-#============================================================
-
-
-
-#-------------------
-# Personnal Aliases
-#-------------------
-
-alias c='clear'
-alias h='history'
-alias ll="ls -liah"
-alias ..='cd ..'
-
-
-alias pwdc='pwd | tr "\n" " " | xsel -bi'
-# http://askubuntu.com/questions/367226/copy-and-paste-current-working-directory-on-command-line-without-using-the-mouse
+./append_aliases_to_bashrc.sh
 ```
 
 Reload bashrc file
@@ -99,8 +64,5 @@ Reload bashrc file
 source ~/.bashrc
 ```
 
-
-
-TODO: create a shell script to add automatically the following lines in the bashrc file
 
 
