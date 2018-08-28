@@ -1,13 +1,59 @@
-Ubuntu Tricks
+Tricks for Ubuntui 16.04
 ---
 This is a list a collection of tricks for Ubuntu and maybe in Ubuntu-like distributions (i.e. Debian).
 
+
+
+
+
+# Remove show desktop in the alt-tab application switcher 
+
+
+```
+sudo apt-get install compizconfig-settings-manager
+```
+
+Now open CCSM and search for Ubuntu Unity plugin, go to Switcher tab. 
+Then tick the check box next to `Disable Show Desktop in the switcher` 
+
+[:link:](https://askubuntu.com/questions/167263/how-can-i-remove-show-desktop-from-the-alt-tab-application-switcher)
+
+
+# Unity grabs Alt and Super key
+
+```
+sudo apt-get install compizconfig-settings-manager
+```
+
+Start it from the Dash or by typing `ccsm` from the terminal  
+Type "Ubuntu Unity plugin" in the filter box on the left, and click on the Ubuntu Unity Plugin:
+
+General >> `key to show the HUD when tapped` >> "< Disabled >"     
+Launcher >> `Key to show the Dash, Launcher and Help Overlay` >>  "< Disabled >"  
+
+References
+* [how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud](https://askubuntu.com/questions/151951/how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud)
+* [-unity-grabs-alt-and-super-key](https://askubuntu.com/questions/764253/virtualbox-in-ubuntu-16-04-unity-grabs-alt-and-super-key)
+
+
+
+
+
 # Increase/Decrease Shell Workspaces
+
+
+Start it from the Dash or by typing `ccsm` from the terminal  
+Select `General Options` >> Deskop Size
+
+
+or 
 
 Change the number of columns, type the following command, changing the final number to the number you wish. Press Enter. [:link:](https://help.ubuntu.com/stable/ubuntu-help/shell-workspaces.html)
 ```
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3`
 ```
+
+
 
 
 # Make the selected tab in the terminal more prominet
@@ -25,36 +71,6 @@ TerminalWindow .notebook tab:active {
 }
 ```
 [:link:](https://askubuntu.com/questions/40332/how-to-make-selected-tab-in-terminal-more-prominent)
-
-
-
-# Remove show desktop in the alt-tab application switcher 
-
-
-```
-sudo apt-get install compizconfig-settings-manager
-```
-Now open CCSM and go to Ubuntu Unity plugin. 
-Switch to Switcher tab. Then tick the check box next to Disable Show Desktop in the switcher option 
-[:link:](https://askubuntu.com/questions/167263/how-can-i-remove-show-desktop-from-the-alt-tab-application-switcher)
-
-
-
-# Unity grabs Alt and Super key
-
-```
-sudo apt-get install compizconfig-settings-manager
-```
-
-Start it from the Dash or by typing ccsm from the terminal  
-Type "Unity" in the filter box on the left, and click on the Ubuntu Unity Plugin:
-
-General Options >> key to show the HUD when tapped "< Disabled >"   
-Launcher >> Key to show the Dash, Launcher and Help Overlay "< Disabled >"
-
-References
-* [how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud](https://askubuntu.com/questions/151951/how-do-i-prevent-ubuntu-from-capturing-the-alt-key-to-show-the-hud)
-* [-unity-grabs-alt-and-super-key](https://askubuntu.com/questions/764253/virtualbox-in-ubuntu-16-04-unity-grabs-alt-and-super-key)
 
 
 # Disable the screensaver-lock
