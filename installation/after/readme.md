@@ -1,7 +1,8 @@
 Things to do after Ubuntu 1(6/8).04 x64 Installation
 ---
 
-# update and upgrade (run essentials.sh)
+# (1) run 'essentials.sh' to update and upgrade OS
+
 
 Download [essentials.sh](/installation/after/essentials.sh)
 and run: 
@@ -20,7 +21,7 @@ sudo apt-get install xsel #for pwdc
 sudo apt-get install tree
 ```
 
-# Github Setting up
+# (2) Github Setting up
 
 
 * set up
@@ -36,7 +37,41 @@ git clone https://github.com/mxochicale/software
 cd software/afterInstallation
 ```
 
-# EXTRAS
+# (3) Add aliases and functions to .bashrc file 
+
+
+append lines to bashrc:
+```
+sh append_aliases_to_bashrc.sh
+```
+
+Reload bashrc file
+```
+source ~/.bashrc
+```
+
+# (4) setup .vimrc
+
+```
+cd
+wget https://raw.githubusercontent.com/mxochicale/scientificTOOLS/master/vim/.vimrc
+```
+
+`.vimrc` contains: 
+```
+set clipboard=unnamedplus
+set number
+colo peachpuff
+syntax on
+```
+See [here](https://github.com/mxochicale/scientificTOOLS/tree/master/vim)
+for more about vim configuration 
+
+
+
+
+
+# (4) EXTRAS
 
 
 ## Setting left-handed mouse
@@ -55,19 +90,6 @@ cd software/afterInstallation
 		profiles > colors: Green on black
 		Background > Transparent background 0.9  
 		text > Monospace Regular 14
-
-## Add aliases and functions to .bashrc file 
-
-
-append lines to bashrc:
-```
-sh append_aliases_to_bashrc.sh
-```
-
-Reload bashrc file
-```
-source ~/.bashrc
-```
 
 
 
