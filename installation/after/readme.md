@@ -3,7 +3,7 @@ Things to do after Ubuntu 1(6/8).04 x64 Installation
 
 # update and upgrade (run essentials.sh)
 
-Download [essentials.sh](/installation/afterinstallation/essentials.sh)
+Download [essentials.sh](/installation/after/essentials.sh)
 and run: 
 ```
 sudo echo
@@ -20,15 +20,24 @@ sudo apt-get install xsel #for pwdc
 sudo apt-get install tree
 ```
 
-# Clone Ubuntu tricks Repo
+# Github Setting up
 
+
+* set up
+```
+git config --global user.name "mxochicale"
+git config --global user.email "@gmail.com"
+```
+
+* clone software repository
 ```
 cd 
-git clone https://github.com/mxochicale/oa-software
-cd oa-software/afterInstallation
+git clone https://github.com/mxochicale/software
+cd software/afterInstallation
 ```
 
 # EXTRAS
+
 
 ## Setting left-handed mouse
   Go to Setting Manager to configure the left-handed mouse
