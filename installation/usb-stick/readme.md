@@ -1,19 +1,20 @@
-
-
-# Create Booteable UBS-stick 
+# (A) Create Booteable UBS-stick 
 
 ## 2. Requirements
 
 * A 2GB or larger USB stick/flash drive
-*  Ubuntu Desktop 14.04 or later installed
-* An Ubuntu ISO file. See Get Ubuntu for download links:
+* Ubuntu Desktop 14.04 or later installed
+* An Ubuntu ISO file from:
 	* [Ubuntu 16.04](http://releases.ubuntu.com/16.04/),  
-	* [ubuntu-16.04.5-desktop-amd64.iso.torrent,2018-08-02,12:09,62K](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso.torrent), and
-	* [ubuntu-16.04.5-desktop-amd64.iso](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso)
+	* [16.04.5-desktop-amd64.iso.torrent,2018-08-02,12:09,62K](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso.torrent), and
+	* [16.04.5-desktop-amd64.iso](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso)
+
+	* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/)
+	* [18.04.2-live-server, 2019-02-14, 834M](http://releases.ubuntu.com/18.04/ubuntu-18.04.2-live-server-amd64.iso)
+	* [18.04.2-desktop, 2019-02-10 00:27, 1.9G](http://releases.ubuntu.com/18.04/ubuntu-18.04.2-desktop-amd64.iso)
 
 
 
-	
 ## 3. Launch 'Startup Disk Creator'
 
 * Insert your USB stick (select ‘Do nothing' if prompted by Ubuntu)
@@ -53,7 +54,7 @@ That's it! You now have Ubuntu on a USB stick, bootable and ready to go.
 
 
 
-# Boot from USB flash drive
+# (B) Boot from USB flash drive
 
 Most computers will boot from USB automatically. Simply insert the 
 USB flash drive and either power on your computer or restart it. 
