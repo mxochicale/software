@@ -2,10 +2,11 @@ Things to do after Ubuntu 1(6/8).04 x64 Installation
 ---
 
 # (1) run 'essentials.sh' to update and upgrade OS
-
-
-Download [essentials.sh](/installation/after/essentials.sh)
-and run: 
+Download essentials.sh
+```
+wget https://raw.githubusercontent.com/mxochicale/software/master/installation/after/essentials.sh
+```
+and run
 ```
 sudo echo
 sh essentials.sh
@@ -21,6 +22,8 @@ sudo apt-get install xsel #for pwdc
 sudo apt-get install tree
 ```
 
+
+
 # (2) Github Setting up
 
 
@@ -34,7 +37,7 @@ git config --global user.email "@gmail.com"
 ```
 cd 
 git clone https://github.com/mxochicale/software
-cd software/afterInstallation
+cd software/installation/after
 ```
 
 # (3) Add aliases and functions to .bashrc file 
@@ -54,7 +57,7 @@ source ~/.bashrc
 
 ```
 cd
-wget https://raw.githubusercontent.com/mxochicale/scientificTOOLS/master/vim/.vimrc
+wget https://raw.githubusercontent.com/mxochicale/tools/master/vim/.vimrc
 ```
 
 `.vimrc` contains: 
