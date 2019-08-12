@@ -42,6 +42,10 @@ cd software/installation/after
 
 # (3) Add aliases and functions to .bashrc file 
 
+```
+cd 
+wget https://raw.githubusercontent.com/mxochicale/software/master/installation/after/append_aliases_to_bashrc.sh
+```
 
 append lines to bashrc:
 ```
@@ -52,6 +56,12 @@ Reload bashrc file
 ```
 source ~/.bashrc
 ```
+
+```
+cd
+rm append_aliases_to_bashrc.sh
+```
+
 
 # (4) setup .vimrc
 
