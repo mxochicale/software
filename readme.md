@@ -1,3 +1,1 @@
-Installation of GNU/Linux for Ubuntu and Debian
----
-
+# The repository https://github.com/mxochicale/software has been migrated to https://github.com/mxochicale/tools
